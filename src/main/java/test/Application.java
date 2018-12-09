@@ -17,6 +17,7 @@ public class Application {
 	@RequestMapping(value="/")
 	public String getName() {
 		System.out.println("Changes made for GIT");
+		System.out.println("Changes made for GIT Test");
 		return "Its Hiland Woods";
 	}
 
